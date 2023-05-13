@@ -53,7 +53,7 @@ def api():
         data["availability"],
     )
 
-    return jsonify({"price": price, "price": price}), 200
+    return jsonify({"price": price}), 200
 
 
 if __name__ == "__main__":
